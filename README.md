@@ -7,5 +7,5 @@ To use this tool build it with cargo. Simply [install Rust](https://www.rust-lan
 ```
 ./target/release/password_generator <length>
 ```
-to generate a password that uses a-z, A-Z and 0-9. Additional characters can be given with the config flag: ```-c <characters>``` or ```--config <characters>```. A description  of the tool can also be accessed in the command line through the usage of the help flag: ```-h``` or ```--help```.
+to generate a password that uses a-z, A-Z and 0-9. Additional characters can be given with the config flag: ```-c <characters>``` or ```--config <characters>```. These additional characters might have to be escaped because of how they are interpreted in the terminal by using ```\``` or ```''```. A description  of the tool can also be accessed in the command line through the usage of the help flag: ```-h``` or ```--help```.
 
